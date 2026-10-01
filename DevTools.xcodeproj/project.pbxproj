@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 110;
+	objectVersion = 100;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -93,6 +93,7 @@
 				89F6F796A907305CA637A1B9 /* DevToolsDisable.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -213,6 +214,11 @@
 			path = Licenses;
 			sourceTree = "<group>";
 		};
+		2A75799A306F062C00BED39B /* Entitlements */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,13 +270,14 @@
 		325F10A6957A34D66CB8C0E4 = {
 			isa = PBXGroup;
 			children = (
+				2A75799A306F062C00BED39B /* Entitlements */,
 				AA4ACA445B3FBAF47CDE31AC /* README.md */,
 				2A7577AA306EB8EF00BED39B /* Licenses */,
 				2A75776B306EB50F00BED39B /* Documentation */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A7575DB306EB37D00BED39B /* Shared */,
-				2A7575D3306EB32600BED39B /* App */,
 				2A757638306EB46400BED39B /* SafariExtension */,
+				2A7575D3306EB32600BED39B /* App */,
 				2A7577BF306EBA2100BED39B /* DevToolsSafariExtension-Debug.xcconfig */,
 				FBDC4F23F93125BBEEAE800C /* Products */,
 			);
@@ -309,6 +316,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsShow;
 			productName = DevToolsShow;
@@ -330,6 +338,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsHide;
 			productName = DevToolsHide;
@@ -351,6 +360,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsSafari;
 			productName = DevToolsSafari;
@@ -372,6 +382,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsAddBlacklist;
 			productName = DevToolsAddBlacklist;
@@ -393,6 +404,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsEnable;
 			productName = DevToolsEnable;
@@ -425,6 +437,7 @@
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
 				2A7577AA306EB8EF00BED39B /* Licenses */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevTools;
 			packageProductDependencies = (
@@ -450,6 +463,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsDisable;
 			productName = DevToolsDisable;
@@ -471,6 +485,7 @@
 				2A757638306EB46400BED39B /* SafariExtension */,
 				2A75770D306EB49A00BED39B /* Configuration */,
 				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75799A306F062C00BED39B /* Entitlements */,
 			);
 			name = DevToolsAddAllowList;
 			productName = DevToolsAddAllowList;
@@ -498,7 +513,6 @@
 					};
 					05CF322D67B502D9461C21C8 = {
 						CreatedOnToolsVersion = 16.0;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -572,7 +586,7 @@
 				466B0EC1C707338FCDBDB607 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
 				1765CBC1007A21D845FC33CE /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
 			);
-			preferredProjectObjectVersion = 110;
+			preferredProjectObjectVersion = 100;
 			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -727,9 +741,10 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_ENTITLEMENTS = DevToolsRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/App-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -738,6 +753,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyh24647.DevTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -750,7 +766,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevToolsShowRelease.entitlements;
 				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Show-Info.plist";
@@ -861,7 +877,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevToolsAddBlacklistRelease.entitlements;
 				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddBlacklist-Info.plist";
@@ -924,7 +940,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevToolsSafariRelease.entitlements;
 				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Safari-Info.plist";
@@ -934,6 +950,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Safari";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.tyh24647.DevTools.Safari;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1013,8 +1030,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
-				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				CODE_SIGN_ENTITLEMENTS = DevToolsHideRelease.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/Hide-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1024,6 +1042,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Hide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1097,7 +1116,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_ENTITLEMENTS = DevToolsAddAllowListRelease.entitlements;
 				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Configuration/AddAllowList-Info.plist";

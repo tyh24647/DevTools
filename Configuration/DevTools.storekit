@@ -1,63 +1,109 @@
 {
-  "identifier": "D6200641-1B21-487B-A47C-527A2ABD8D01",
-  "nonRenewingSubscriptions": [],
-  "products": [
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "D6200641-1B21-487B-A47C-527A2ABD8D01",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
     {
-      "displayPrice": "19.99",
-      "familyShareable": false,
-      "internalID": "DT-LIFETIME",
-      "localizations": [
+      "displayPrice" : "19.99",
+      "familyShareable" : false,
+      "internalID" : "DT-LIFETIME",
+      "localizations" : [
         {
-          "description": "Vue tools, resource waterfall, console customization and no ads.",
-          "displayName": "DevTools Pro Lifetime",
-          "locale": "en_US"
+          "description" : "Vue tools, resource waterfall, console customization and no ads.",
+          "displayName" : "DevTools Pro Lifetime",
+          "locale" : "en_US"
         }
       ],
-      "productID": "com.tyh24647.DevTools.pro.lifetime",
-      "referenceName": "Pro Lifetime",
-      "type": "NonConsumable"
+      "productID" : "com.tyh24647.DevTools.pro.lifetime",
+      "referenceName" : "Pro Lifetime",
+      "type" : "NonConsumable"
     }
   ],
-  "settings": {
-    "_applicationInternalID": "",
-    "_developerTeamID": "",
-    "_failTransactionsEnabled": false,
-    "_locale": "en_US",
-    "_storefront": "USA",
-    "_storeKitErrors": []
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_askToBuyEnabled" : true,
+    "_billingGracePeriodEnabled" : true,
+    "_billingIssuesEnabled" : true,
+    "_developerTeamID" : "",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : true,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
   },
-  "subscriptionGroups": [
+  "subscriptionBundleGroups" : [
+
+  ],
+  "subscriptionGroups" : [
     {
-      "id": "DT-PRO-GROUP",
-      "localizations": [],
-      "name": "DevTools Pro",
-      "subscriptions": [
+      "id" : "DT-PRO-GROUP",
+      "localizations" : [
+
+      ],
+      "name" : "DevTools Pro",
+      "subscriptions" : [
         {
-          "adHocOffers": [],
-          "codeOffers": [],
-          "displayPrice": "2.99",
-          "familyShareable": false,
-          "groupNumber": 1,
-          "internalID": "DT-MONTHLY",
-          "introductoryOffer": null,
-          "localizations": [
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
             {
-              "description": "Vue tools, resource waterfall, console customization and no ads.",
-              "displayName": "DevTools Pro Monthly",
-              "locale": "en_US"
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "2.99",
+              "displayPrice" : "2.99",
+              "internalID" : "A77FEF7C",
+              "isEnabled" : true
             }
           ],
-          "productID": "com.tyh24647.DevTools.pro.monthly",
-          "recurringSubscriptionPeriod": "P1M",
-          "referenceName": "Pro Monthly",
-          "subscriptionGroupID": "DT-PRO-GROUP",
-          "type": "RecurringSubscription"
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DT-MONTHLY",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "Vue tools, resource waterfall, console customization and no ads.",
+              "displayName" : "DevTools Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.tyh24647.DevTools.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pro Monthly",
+          "subscriptionGroupID" : "DT-PRO-GROUP",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
         }
       ]
     }
   ],
-  "version": {
-    "major": 3,
-    "minor": 0
+  "subscriptionSuiteGroups" : [
+
+  ],
+  "version" : {
+    "major" : 6,
+    "minor" : 3
   }
 }
