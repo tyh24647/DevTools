@@ -1,0 +1,1272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A757614306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A757615306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A757616306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A757617306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A757618306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A757619306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A75761A306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		2A75761B306EB39F00BED39B /* App in Resources */ = {isa = PBXBuildFile; fileRef = 2A7575D3306EB32600BED39B /* App */; };
+		3142B5DFC7C16DAC13CC72B5 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 8D52EF07661F09E10251B7F5 /* GoogleMobileAds */; };
+		4B7C8DD45BF88CFCC2FEA224 /* DevToolsSafari.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = EA7156C16941170875F3E81E /* DevToolsSafari.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5DB86811706368EA978B5F2F /* DevToolsHide.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E3866597C919866280DBBCB /* DevToolsHide.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		64A83BF706349506079EFD75 /* DevToolsEnable.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 69C846F9CFC3BD269522CDEE /* DevToolsEnable.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6D41AB191CEDC0DF3B68FA45 /* DevToolsAddAllowList.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D75105E284E7B79FC7D1775E /* DevToolsAddAllowList.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		790C1D6E2FC2E1A406A1F067 /* DevToolsAddBlacklist.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2ABFFE0F1DFB65574A68A5A6 /* DevToolsAddBlacklist.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89F6F796A907305CA637A1B9 /* DevToolsDisable.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0BC5C2A24655FC493A716A38 /* DevToolsDisable.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9ABD91F74A81C3510A27A9C1 /* DevToolsShow.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 17C4D2E69FF03D296F58DC59 /* DevToolsShow.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD8BEFFB0C10AEA1838E02D2 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = F83C4DAC265C14EB79580418 /* GoogleUserMessagingPlatform */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13CA121D27CD8A230ECA7DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CF322D67B502D9461C21C8;
+			remoteInfo = DevToolsHide;
+		};
+		146A4330FC78878AA395710E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E433B5FF12B9040832A7DF29;
+			remoteInfo = DevToolsAddAllowList;
+		};
+		696D36D3DDE80F3CDAB59F94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8EFCC1AD2146DFA9742C4B7;
+			remoteInfo = DevToolsDisable;
+		};
+		A2A9A514F363E33CF4C29D19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B53A7A7BF32613E46C47A95;
+			remoteInfo = DevToolsAddBlacklist;
+		};
+		C52859222E84B8DE698424C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056D834D22A6276EA8F8CFF6;
+			remoteInfo = DevToolsShow;
+		};
+		E4EAEA9E2D5280FFCA0E9E35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BF6A9C02099693DC1A2642;
+			remoteInfo = DevToolsEnable;
+		};
+		FC086CB309FA29EAF2802B2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0741F4FF3514C5A9DD47880B;
+			remoteInfo = DevToolsSafari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F933BA841895383DA49EE9D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				4B7C8DD45BF88CFCC2FEA224 /* DevToolsSafari.appex in Embed Foundation Extensions */,
+				790C1D6E2FC2E1A406A1F067 /* DevToolsAddBlacklist.appex in Embed Foundation Extensions */,
+				6D41AB191CEDC0DF3B68FA45 /* DevToolsAddAllowList.appex in Embed Foundation Extensions */,
+				9ABD91F74A81C3510A27A9C1 /* DevToolsShow.appex in Embed Foundation Extensions */,
+				5DB86811706368EA978B5F2F /* DevToolsHide.appex in Embed Foundation Extensions */,
+				64A83BF706349506079EFD75 /* DevToolsEnable.appex in Embed Foundation Extensions */,
+				89F6F796A907305CA637A1B9 /* DevToolsDisable.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BC5C2A24655FC493A716A38 /* DevToolsDisable.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsDisable.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C4D2E69FF03D296F58DC59 /* DevToolsShow.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsShow.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7575D3306EB32600BED39B /* App */ = {isa = PBXFileReference; lastKnownFileType = folder; path = App; sourceTree = "<group>"; };
+		2A7577BF306EBA2100BED39B /* DevToolsSafariExtension-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "DevToolsSafariExtension-Debug.xcconfig"; sourceTree = "<group>"; };
+		2ABFFE0F1DFB65574A68A5A6 /* DevToolsAddBlacklist.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsAddBlacklist.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0FA95D8D056CEEC98B2D8C /* DevTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C846F9CFC3BD269522CDEE /* DevToolsEnable.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsEnable.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3866597C919866280DBBCB /* DevToolsHide.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsHide.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4ACA445B3FBAF47CDE31AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D75105E284E7B79FC7D1775E /* DevToolsAddAllowList.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsAddAllowList.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7156C16941170875F3E81E /* DevToolsSafari.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DevToolsSafari.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2A7577C8306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevTools" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"App-Info.plist",
+				Project.xcconfig,
+			);
+			target = B7D9602A717E44E0418DEEF0 /* DevTools */;
+		};
+		2A7577C9306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsSafari" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Project.xcconfig,
+				"Safari-Info.plist",
+			);
+			target = 0741F4FF3514C5A9DD47880B /* DevToolsSafari */;
+		};
+		2A7577CA306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsAddBlacklist" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"AddBlacklist-Info.plist",
+				Project.xcconfig,
+			);
+			target = 1B53A7A7BF32613E46C47A95 /* DevToolsAddBlacklist */;
+		};
+		2A7577CB306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsAddAllowList" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"AddAllowList-Info.plist",
+				Project.xcconfig,
+			);
+			target = E433B5FF12B9040832A7DF29 /* DevToolsAddAllowList */;
+		};
+		2A7577CC306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsShow" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Project.xcconfig,
+				"Show-Info.plist",
+			);
+			target = 056D834D22A6276EA8F8CFF6 /* DevToolsShow */;
+		};
+		2A7577CD306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsHide" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Hide-Info.plist",
+				Project.xcconfig,
+			);
+			target = 05CF322D67B502D9461C21C8 /* DevToolsHide */;
+		};
+		2A7577CE306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsEnable" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Enable-Info.plist",
+				Project.xcconfig,
+			);
+			target = 30BF6A9C02099693DC1A2642 /* DevToolsEnable */;
+		};
+		2A7577CF306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsDisable" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Disable-Info.plist",
+				Project.xcconfig,
+			);
+			target = B8EFCC1AD2146DFA9742C4B7 /* DevToolsDisable */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2A7575DB306EB37D00BED39B /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2A757638306EB46400BED39B /* SafariExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SafariExtension;
+			sourceTree = "<group>";
+		};
+		2A75770D306EB49A00BED39B /* Configuration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2A7577C8306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevTools" target */,
+				2A7577C9306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsSafari" target */,
+				2A7577CA306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsAddBlacklist" target */,
+				2A7577CB306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsAddAllowList" target */,
+				2A7577CC306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsShow" target */,
+				2A7577CD306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsHide" target */,
+				2A7577CE306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsEnable" target */,
+				2A7577CF306EBB1000BED39B /* Exceptions for "Configuration" folder in "DevToolsDisable" target */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2A75776B306EB50F00BED39B /* Documentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Documentation;
+			sourceTree = "<group>";
+		};
+		2A7577AA306EB8EF00BED39B /* Licenses */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16A8557B55E13D104A7B3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		2A58D675E7DBF463D83DF8AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				3142B5DFC7C16DAC13CC72B5 /* GoogleMobileAds in Frameworks */,
+				DD8BEFFB0C10AEA1838E02D2 /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+		};
+		4FEF4EDD1FD1EB82AAFE81AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		6DAA3FA12B79B9BC69A9B053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		E5E6033A240F94402B5D556E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		EEEBCCEAEB86FE4B37E2EAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		F5EC29523B38BE7CD346E036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		FB6F82626B7DBA825126C5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		325F10A6957A34D66CB8C0E4 = {
+			isa = PBXGroup;
+			children = (
+				AA4ACA445B3FBAF47CDE31AC /* README.md */,
+				2A7577AA306EB8EF00BED39B /* Licenses */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A7575D3306EB32600BED39B /* App */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A7577BF306EBA2100BED39B /* DevToolsSafariExtension-Debug.xcconfig */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E0FA95D8D056CEEC98B2D8C /* DevTools.app */,
+				EA7156C16941170875F3E81E /* DevToolsSafari.appex */,
+				2ABFFE0F1DFB65574A68A5A6 /* DevToolsAddBlacklist.appex */,
+				D75105E284E7B79FC7D1775E /* DevToolsAddAllowList.appex */,
+				17C4D2E69FF03D296F58DC59 /* DevToolsShow.appex */,
+				8E3866597C919866280DBBCB /* DevToolsHide.appex */,
+				69C846F9CFC3BD269522CDEE /* DevToolsEnable.appex */,
+				0BC5C2A24655FC493A716A38 /* DevToolsDisable.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056D834D22A6276EA8F8CFF6 /* DevToolsShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17191CB0B26B561C9101287B /* Build configuration list for PBXNativeTarget "DevToolsShow" */;
+			buildPhases = (
+				0DEB94A4F1C6FDDDE63BC554 /* Sources */,
+				CFC14B04292DFEABE8301B15 /* Resources */,
+				6DAA3FA12B79B9BC69A9B053 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsShow;
+			productName = DevToolsShow;
+			productReference = 17C4D2E69FF03D296F58DC59 /* DevToolsShow.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		05CF322D67B502D9461C21C8 /* DevToolsHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D77C46BDBFA5AC837F7315 /* Build configuration list for PBXNativeTarget "DevToolsHide" */;
+			buildPhases = (
+				1950EA4392AACB2634F709E3 /* Sources */,
+				A0D9D1B9BDABE98780666407 /* Resources */,
+				EEEBCCEAEB86FE4B37E2EAA7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsHide;
+			productName = DevToolsHide;
+			productReference = 8E3866597C919866280DBBCB /* DevToolsHide.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0741F4FF3514C5A9DD47880B /* DevToolsSafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FEE2F994BE37AAD4282A94D /* Build configuration list for PBXNativeTarget "DevToolsSafari" */;
+			buildPhases = (
+				F2CCF6F39CF8C06B23209F7B /* Sources */,
+				AC0CBFB6F6EE39D102721E60 /* Resources */,
+				FB6F82626B7DBA825126C5AD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsSafari;
+			productName = DevToolsSafari;
+			productReference = EA7156C16941170875F3E81E /* DevToolsSafari.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1B53A7A7BF32613E46C47A95 /* DevToolsAddBlacklist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27F4B50B8EDC02DA022A5BA /* Build configuration list for PBXNativeTarget "DevToolsAddBlacklist" */;
+			buildPhases = (
+				A4AABB290D0AFCF1410102D3 /* Sources */,
+				8288D3DC0A8B0155C1EA3993 /* Resources */,
+				4FEF4EDD1FD1EB82AAFE81AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsAddBlacklist;
+			productName = DevToolsAddBlacklist;
+			productReference = 2ABFFE0F1DFB65574A68A5A6 /* DevToolsAddBlacklist.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		30BF6A9C02099693DC1A2642 /* DevToolsEnable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFD546737CC3AE5083C6BC0 /* Build configuration list for PBXNativeTarget "DevToolsEnable" */;
+			buildPhases = (
+				C74B3D2C58C65F182528B7F0 /* Sources */,
+				3A3CEA5095CF4D95EEEC1EA8 /* Resources */,
+				E5E6033A240F94402B5D556E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsEnable;
+			productName = DevToolsEnable;
+			productReference = 69C846F9CFC3BD269522CDEE /* DevToolsEnable.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B7D9602A717E44E0418DEEF0 /* DevTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC43E8DD7E92B4DA8FC5AF28 /* Build configuration list for PBXNativeTarget "DevTools" */;
+			buildPhases = (
+				2B68B2B530956784F1BA96CA /* Sources */,
+				1DF9F9E1E1275F3AC40E9188 /* Resources */,
+				2A58D675E7DBF463D83DF8AE /* Frameworks */,
+				2F933BA841895383DA49EE9D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1ADC2FC1E9BEAF04C1F419 /* PBXTargetDependency */,
+				0273FED4B29288E815504108 /* PBXTargetDependency */,
+				AB6F8B4465F1CFB7423C61A7 /* PBXTargetDependency */,
+				214ABDCA7762983B0A2C521D /* PBXTargetDependency */,
+				A5265B5D8695BE408DCDBB62 /* PBXTargetDependency */,
+				C43F6398BEA9AEEBEB6996CD /* PBXTargetDependency */,
+				0B16ECB07B690A44B94D28CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+				2A7577AA306EB8EF00BED39B /* Licenses */,
+			);
+			name = DevTools;
+			packageProductDependencies = (
+				8D52EF07661F09E10251B7F5 /* GoogleMobileAds */,
+				F83C4DAC265C14EB79580418 /* GoogleUserMessagingPlatform */,
+			);
+			productName = DevTools;
+			productReference = 3E0FA95D8D056CEEC98B2D8C /* DevTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8EFCC1AD2146DFA9742C4B7 /* DevToolsDisable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04056C136D823AC48140817E /* Build configuration list for PBXNativeTarget "DevToolsDisable" */;
+			buildPhases = (
+				CDD4634F97DBB7AFBDDA07A0 /* Sources */,
+				B9C1D4803175006C2D2178B8 /* Resources */,
+				F5EC29523B38BE7CD346E036 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsDisable;
+			productName = DevToolsDisable;
+			productReference = 0BC5C2A24655FC493A716A38 /* DevToolsDisable.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E433B5FF12B9040832A7DF29 /* DevToolsAddAllowList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D6F54F62DC964DDD87821DF /* Build configuration list for PBXNativeTarget "DevToolsAddAllowList" */;
+			buildPhases = (
+				402B218F25E52FDB61842E5C /* Sources */,
+				FA9324D10E4C47CE070A7234 /* Resources */,
+				16A8557B55E13D104A7B3FAB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				2A7575DB306EB37D00BED39B /* Shared */,
+				2A757638306EB46400BED39B /* SafariExtension */,
+				2A75770D306EB49A00BED39B /* Configuration */,
+				2A75776B306EB50F00BED39B /* Documentation */,
+			);
+			name = DevToolsAddAllowList;
+			productName = DevToolsAddAllowList;
+			productReference = D75105E284E7B79FC7D1775E /* DevToolsAddAllowList.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					056D834D22A6276EA8F8CFF6 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					05CF322D67B502D9461C21C8 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					0741F4FF3514C5A9DD47880B = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1B53A7A7BF32613E46C47A95 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					30BF6A9C02099693DC1A2642 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B7D9602A717E44E0418DEEF0 = {
+						CreatedOnToolsVersion = 16.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B8EFCC1AD2146DFA9742C4B7 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E433B5FF12B9040832A7DF29 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4BAE015DE913F32DCB7C7BB2 /* Build configuration list for PBXProject "DevTools" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 325F10A6957A34D66CB8C0E4;
+			packageReferences = (
+				466B0EC1C707338FCDBDB607 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				1765CBC1007A21D845FC33CE /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+			);
+			preferredProjectObjectVersion = 110;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D9602A717E44E0418DEEF0 /* DevTools */,
+				0741F4FF3514C5A9DD47880B /* DevToolsSafari */,
+				1B53A7A7BF32613E46C47A95 /* DevToolsAddBlacklist */,
+				E433B5FF12B9040832A7DF29 /* DevToolsAddAllowList */,
+				056D834D22A6276EA8F8CFF6 /* DevToolsShow */,
+				05CF322D67B502D9461C21C8 /* DevToolsHide */,
+				30BF6A9C02099693DC1A2642 /* DevToolsEnable */,
+				B8EFCC1AD2146DFA9742C4B7 /* DevToolsDisable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF9F9E1E1275F3AC40E9188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757614306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		3A3CEA5095CF4D95EEEC1EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A75761A306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		8288D3DC0A8B0155C1EA3993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757616306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		A0D9D1B9BDABE98780666407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757619306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		AC0CBFB6F6EE39D102721E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757615306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		B9C1D4803175006C2D2178B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A75761B306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		CFC14B04292DFEABE8301B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757618306EB39F00BED39B /* App in Resources */,
+			);
+		};
+		FA9324D10E4C47CE070A7234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				2A757617306EB39F00BED39B /* App in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DEB94A4F1C6FDDDE63BC554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		1950EA4392AACB2634F709E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		2B68B2B530956784F1BA96CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		402B218F25E52FDB61842E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		A4AABB290D0AFCF1410102D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		C74B3D2C58C65F182528B7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		CDD4634F97DBB7AFBDDA07A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		F2CCF6F39CF8C06B23209F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0273FED4B29288E815504108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B53A7A7BF32613E46C47A95 /* DevToolsAddBlacklist */;
+			targetProxy = A2A9A514F363E33CF4C29D19 /* PBXContainerItemProxy */;
+		};
+		0B16ECB07B690A44B94D28CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8EFCC1AD2146DFA9742C4B7 /* DevToolsDisable */;
+			targetProxy = 696D36D3DDE80F3CDAB59F94 /* PBXContainerItemProxy */;
+		};
+		214ABDCA7762983B0A2C521D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056D834D22A6276EA8F8CFF6 /* DevToolsShow */;
+			targetProxy = C52859222E84B8DE698424C0 /* PBXContainerItemProxy */;
+		};
+		A5265B5D8695BE408DCDBB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CF322D67B502D9461C21C8 /* DevToolsHide */;
+			targetProxy = 13CA121D27CD8A230ECA7DF2 /* PBXContainerItemProxy */;
+		};
+		AB6F8B4465F1CFB7423C61A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E433B5FF12B9040832A7DF29 /* DevToolsAddAllowList */;
+			targetProxy = 146A4330FC78878AA395710E /* PBXContainerItemProxy */;
+		};
+		C43F6398BEA9AEEBEB6996CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BF6A9C02099693DC1A2642 /* DevToolsEnable */;
+			targetProxy = E4EAEA9E2D5280FFCA0E9E35 /* PBXContainerItemProxy */;
+		};
+		FE1ADC2FC1E9BEAF04C1F419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0741F4FF3514C5A9DD47880B /* DevToolsSafari */;
+			targetProxy = FC086CB309FA29EAF2802B2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0258ABC00DB1788FE75ABF0D /* Release configuration for PBXNativeTarget "DevTools" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		0AFAD0B9E68781A7BE44218A /* Release configuration for PBXNativeTarget "DevToolsShow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Show-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Show";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		1C6332C759B35B5B3487F3CD /* Debug configuration for PBXProject "DevTools" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG DEVTOOLS_REMOTE_UPDATES";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		252DE72D65AB39A9F1EA1B57 /* Debug configuration for PBXNativeTarget "DevToolsHide" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Hide-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Hide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		25969A5E7CEB1464ED1CAF64 /* Debug configuration for PBXNativeTarget "DevToolsShow" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Show-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Show";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		58B0B6261C882ACF477A1282 /* Release configuration for PBXNativeTarget "DevToolsAddBlacklist" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/AddBlacklist-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).AddBlacklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		7A3077342169A95CD8BA95D2 /* Debug configuration for PBXNativeTarget "DevToolsDisable" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Disable-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Disable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		7D6602C7BF1DB3D9D93B0575 /* Debug configuration for PBXNativeTarget "DevToolsAddBlacklist" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/AddBlacklist-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).AddBlacklist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		8118FCA1854637C62B51EF67 /* Release configuration for PBXNativeTarget "DevToolsSafari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Safari-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		8B7212A5EF49F64ACD4F072A /* Release configuration for PBXProject "DevTools" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		911C0A3C540424173C2E5CAD /* Debug configuration for PBXNativeTarget "DevToolsEnable" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Enable-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Enable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		969E432C5FED031F49C37C36 /* Release configuration for PBXNativeTarget "DevToolsHide" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Hide-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Hide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		B7625D80645C190E2C03B0A0 /* Release configuration for PBXNativeTarget "DevToolsDisable" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Disable-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Disable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		C09411AC33C58874822CC50E /* Debug configuration for PBXNativeTarget "DevToolsAddAllowList" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/AddAllowList-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).AddAllowList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		D538065728085A9D37EC84A4 /* Debug configuration for PBXNativeTarget "DevToolsSafari" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Safari-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+		D68D5C317B05D14B61C63E96 /* Release configuration for PBXNativeTarget "DevToolsAddAllowList" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/AddAllowList-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).AddAllowList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		EAF0EBEF92E70BB9655CE664 /* Release configuration for PBXNativeTarget "DevToolsEnable" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				DEVELOPMENT_TEAM = GZ6B7VNBWJ;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/Enable-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(DT_BUNDLE_PREFIX).Enable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Release;
+		};
+		F8579197FAB9E27C9AC9904A /* Debug configuration for PBXNativeTarget "DevTools" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Shared.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04056C136D823AC48140817E /* Build configuration list for PBXNativeTarget "DevToolsDisable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A3077342169A95CD8BA95D2 /* Debug configuration for PBXNativeTarget "DevToolsDisable" */,
+				B7625D80645C190E2C03B0A0 /* Release configuration for PBXNativeTarget "DevToolsDisable" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		17191CB0B26B561C9101287B /* Build configuration list for PBXNativeTarget "DevToolsShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25969A5E7CEB1464ED1CAF64 /* Debug configuration for PBXNativeTarget "DevToolsShow" */,
+				0AFAD0B9E68781A7BE44218A /* Release configuration for PBXNativeTarget "DevToolsShow" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		4BAE015DE913F32DCB7C7BB2 /* Build configuration list for PBXProject "DevTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6332C759B35B5B3487F3CD /* Debug configuration for PBXProject "DevTools" */,
+				8B7212A5EF49F64ACD4F072A /* Release configuration for PBXProject "DevTools" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		66D77C46BDBFA5AC837F7315 /* Build configuration list for PBXNativeTarget "DevToolsHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252DE72D65AB39A9F1EA1B57 /* Debug configuration for PBXNativeTarget "DevToolsHide" */,
+				969E432C5FED031F49C37C36 /* Release configuration for PBXNativeTarget "DevToolsHide" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		6FEE2F994BE37AAD4282A94D /* Build configuration list for PBXNativeTarget "DevToolsSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D538065728085A9D37EC84A4 /* Debug configuration for PBXNativeTarget "DevToolsSafari" */,
+				8118FCA1854637C62B51EF67 /* Release configuration for PBXNativeTarget "DevToolsSafari" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8D6F54F62DC964DDD87821DF /* Build configuration list for PBXNativeTarget "DevToolsAddAllowList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09411AC33C58874822CC50E /* Debug configuration for PBXNativeTarget "DevToolsAddAllowList" */,
+				D68D5C317B05D14B61C63E96 /* Release configuration for PBXNativeTarget "DevToolsAddAllowList" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		A27F4B50B8EDC02DA022A5BA /* Build configuration list for PBXNativeTarget "DevToolsAddBlacklist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6602C7BF1DB3D9D93B0575 /* Debug configuration for PBXNativeTarget "DevToolsAddBlacklist" */,
+				58B0B6261C882ACF477A1282 /* Release configuration for PBXNativeTarget "DevToolsAddBlacklist" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		AEFD546737CC3AE5083C6BC0 /* Build configuration list for PBXNativeTarget "DevToolsEnable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911C0A3C540424173C2E5CAD /* Debug configuration for PBXNativeTarget "DevToolsEnable" */,
+				EAF0EBEF92E70BB9655CE664 /* Release configuration for PBXNativeTarget "DevToolsEnable" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		EC43E8DD7E92B4DA8FC5AF28 /* Build configuration list for PBXNativeTarget "DevTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8579197FAB9E27C9AC9904A /* Debug configuration for PBXNativeTarget "DevTools" */,
+				0258ABC00DB1788FE75ABF0D /* Release configuration for PBXNativeTarget "DevTools" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1765CBC1007A21D845FC33CE /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		466B0EC1C707338FCDBDB607 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = exactVersion;
+				version = 13.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8D52EF07661F09E10251B7F5 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 466B0EC1C707338FCDBDB607 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		F83C4DAC265C14EB79580418 /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1765CBC1007A21D845FC33CE /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

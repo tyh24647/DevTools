@@ -1,0 +1,12 @@
+// Disable stripping and postprocessing in Debug for the Safari App Extension
+dependency_info_file =
+DEPLOYMENT_POSTPROCESSING = NO
+STRIP_INSTALLED_PRODUCT = NO
+COPY_PHASE_STRIP = NO
+
+// Ensure code signing remains enabled for proper embedding
+CODE_SIGNING_ALLOWED = YES
+CODE_SIGNING_REQUIRED = YES
+
+// Set an explicit Swift version to avoid empty SWIFT_VERSION errors
+SWIFT_VERSION = 6.0
